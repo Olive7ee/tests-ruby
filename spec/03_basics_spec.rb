@@ -16,7 +16,7 @@ describe 'crazy stuff on strings' do
   # Hint: google ruby string
   it 'does crazy stuff on strings' do
     expect(reverse_upcase_noLTA("Tries this at Home, Kids"))
-      .to eq("SDIK ,EMOH  SIH SEIR")
+      .to eq("SDIK ,EMOH SIH SEIR")
     expect(reverse_upcase_noLTA("Ponies loves carrots"))
       .to eq("SORRC SEVO SEINOP")
     expect(reverse_upcase_noLTA("qwertyuiopasdfghjkl;zxcvbn"))
